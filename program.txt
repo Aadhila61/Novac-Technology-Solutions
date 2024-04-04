@@ -1,0 +1,118 @@
+
+1. print even and odd index values seperate array
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$cars = array("Volvo", "BMW", "Toyota","audi");
+$clength = count($cars);
+for($i=0; $i<=$clength; $i++) {
+
+if($i%2==0)
+{
+$even[]=$cars[$i];
+}
+
+else if($i%2==1)
+{
+$odd[]=$cars[$i];
+}
+
+}
+echo "Even car: <br>";
+foreach ($even as $x){
+echo "$x <br>";
+}
+
+
+}
+echo "odd car: <br>";
+foreach ($odd as $y){
+echo "$y <br>";
+}
+
+
+?>
+</body>
+</html>
+
+
+
+
+
+2.print sum of array using function
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+
+function sumofArray($arr, $n) 
+{
+	if ($n <= 0) { 
+		return 0; 
+	}  
+	return sumofArray($arr, $n - 1) + $arr[$n - 1]; 
+} 
+
+$arr = [1, 2, 3, 4, 5, 6]; 
+$sum = sumofArray($arr, sizeof($arr)); 
+echo   $sum; 
+
+
+?>
+
+</body>
+</html>
+
+
+
+}
+echo "odd car: <br>";
+foreach ($odd as $y){
+echo "$y <br>";
+}
+
+
+?>
+</body>
+</html>
+
+
+
+
+
+
+
+
+program to print consonants
+
+
+
+<?php
+function consonants($str){
+$consonants="";
+$vowels=['a','e','i','o','u'];
+$str=strtolower($str);
+$len=strlen($str);
+
+for($i=0;$i<$len;$i++){
+$char=$str[$i];
+
+if((!in_array($char,$vowels))){
+$value.=$char;
+}
+}
+return $value;
+}
+
+$str = "GeeksforGeeks"; 
+//echo $value;
+$value = consonants($str); 
+echo $value;
+
+?>
+
+
