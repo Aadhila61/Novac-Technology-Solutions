@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Count</title>
+
+<style>
+
+  
+    body{
+      /* background: #d9edf7; */
+      font-style: bold;
+      text-align: center;
+      
+      
+    }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%;
+    text-align: center;
+ 
+    
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    /* padding: 2px 16px; */
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 20px;
+}
+  .color{
+    margin-top: 50px;
+    background-color: rgba(252, 247, 248, 0.699);
+  }
+  </style>
+<body>
+
+    <div class="container"> 
+        <div class="card">
+         
+            <h3>CARDS</h3>
+          <img src="image.jpg" alt="Avatar" style="width:50% " >
+          <div class="color">
+       
+
+
+
+
+<h2>Random value<span id="random"></span></h2>
+<h1>Total:<span id="total">0</span></h1>
+<button type="button"   class="btn btn-danger btn-lg btn-block" onclick="randomnumber()" id="addrandom">submit</button><br><br>
+<a href="cards.html">
+    <button  type="button"class="btn btn-info  btn-lg btn-block">Start Over</button>
+</a>
+
+
+<!-- <button onclick="document.getElementById('demo').innerHTML = getRndInteger(1,13)">Click Me</button>
+
+<p id="demo"></p> -->
+
+<script src="game.js">
+
+</script>
+
+</body>
+</html>
