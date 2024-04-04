@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ @font-face {
+  font-family: 'Poiret One';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/poiretone/v16/UqyVK80NJXN4zfRgbdfbo55cUg.ttf) format('truetype');
+}
+#bodys4 {
+  width: 100%;
+  height: 100%;
+  background-color:white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgba(7, 7, 7, 0.8);
+}
+#wrapper {
+  min-height: 0;
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  margin: 50px 0;
+  transform: translate(-50%, 0);
+  background-color:white;
+  max-width: 1000px;
+  padding: 30px;
+}
+@media (max-width: 767px) {
+  #wrapper {
+    box-sizing: border-box;
+    transform: translate(0, 0);
+    max-width: 100%;
+    min-height: 100%;
+    margin: 0;
+    left: 0;
+  }
+  #h2s4 {
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    display: block;
+    background-color: #fefffa;
+    margin: 0;
+    cursor: pointer;
+}
+}
+/* h1,
+h2 {
+  color: #000;
+} */
+#h1s4 {
+  margin: 10% auto 0;
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  text-align: center;
+  display: table;
+  padding: 10px 0;
+  font-weight: bolder;
+  /* border-bottom: 2px solid #000; */
+}
+h2 {
+  font-size: 26px;
+  line-height: 34px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  display: block;
+  background-color: #fefffa;
+  margin: 0;
+  cursor: pointer;
+}
+p {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  position: relative;
+  overflow: hidden;
+  max-height: 800px;
+  opacity: 1;
+  transform: translate(0, 0);
+  margin-top: 14px;
+  z-index: 2;
+  transition: all 500ms ease;
+}
+p,
+ul li i:before,
+ul li i:after {
+  transition: all 0.25s ease-in-out;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 4px;
+  padding-top: 18px;
+  border-top: 1px dotted #dce7eb;
+}
+ul li i {
+  position: absolute;
+  transform: translate(-6px, 0);
+  margin-top: 9px;
+  right: 0;
+}
+ul li i:before,
+ul li i:after {
+  content: "";
+  position: absolute;
+  background-color: #000;
+  width: 3px;
+  height: 16px;
+}
+ul li i:before {
+  transform: translate(2px, 0) rotate(45deg);
+}
+ul li i:after {
+  transform: translate(2px, 0) rotate(-45deg);
+}
+ul li input[type=checkbox] {
+  position: absolute;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+}
+ul li input[type=checkbox]:checked ~ p {
+  margin-top: 0;
+  max-height: 0;
+  opacity: 0;
+  transform: translate(0, 50%);
+}
+ul li input[type=checkbox]:checked ~ i:before {
+  margin-top: 9px;
+  height: 9px;
+  transform: translate(2px, 0) rotate(45deg);
+}
+ul li input[type=checkbox]:checked ~ i:after {
+  margin-top: 9px;
+  height: 9px;
+  transform: translate(-2px, 0) rotate(-45deg);
+}
+ul li:nth-of-type(1) {
+  border-top: none;
+  animation-delay: 0.5s;
+}
+ul li:nth-of-type(2) {
+  animation-delay: 0.75s;
+}
+ul li:nth-of-type(3) {
+  animation-delay: 1s;
+}
+ul li:last-of-type {
+  padding-bottom: 0;
+}
+li {
+  animation: bounceInUp 1s ease both;
+}
+
+
+
+
+
+
+
+</style>
+<body >
+  <section class="faq" id="bodys4" >
+    <h1 id ="h1s4">FAQ</h1>
+        <div id="wrapper">
+           
+            <ul>
+                <li>
+                    <input type="checkbox" checked>
+                    <i></i>
+                    <h2 id="h2s4">How do I register for the event?</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<hr></p>
+                </li>
+                <li>
+                    <input type="checkbox" checked>
+                    <i></i>
+                    <h2 id="h2s4">What are the qualifications to participate in the event?</h2>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).<hr></p>
+                </li>
+                <li>
+                    <input type="checkbox" checked>
+                    <i></i>
+                    <h2 id="h2s4">Do I need to have coding skills for this?</h2>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.<hr></p>
+                </li>
+
+                <li>
+                    <input type="checkbox" checked>
+                    <i></i>
+                    <h2 id="h2s4">How long will Techbrewers take place?</h2>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.<hr></p>
+                </li>
+            </ul>
+        </div>
+      </section>
+</body>
+</html>

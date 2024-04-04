@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="130" height="130" viewBox="0 0 130 130">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_63690" data-name="Rectangle 63690" width="130" height="130" transform="translate(11024 -16186)" fill="#fff" stroke="#fff" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_143732" data-name="Mask Group 143732" transform="translate(-11024 16186)" clip-path="url(#clip-path)">
+    <g id="Group_144919" data-name="Group 144919" transform="translate(-24.154 -22.666)">
+      <circle id="Ellipse_78997" data-name="Ellipse 78997" cx="15.16" cy="15.16" r="15.16" transform="translate(11073.082 -16123.313)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_129036" data-name="Path 129036" d="M.5,78.963h72S76.571,55.2,47.4,44.2c0,0-9.306,7.8-21.72,0C25.682,44.2.5,52.007.5,78.963Z" transform="translate(11052 -16128.686)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_129037" data-name="Path 129037" d="M51.815,10.074H45.764V45.739h8.917V57.147L66.117,45.711H103.4V10.074H78.3" transform="translate(11070.967 -16142.988)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_129038" data-name="Path 129038" d="M63.588.592l2.465,7.583a.131.131,0,0,0,.126.092h7.975a.134.134,0,0,1,.078.243L67.781,13.2a.135.135,0,0,0-.05.149L70.2,20.931a.134.134,0,0,1-.206.149l-6.451-4.687a.134.134,0,0,0-.158,0L56.931,21.08a.134.134,0,0,1-.206-.149l2.463-7.585a.132.132,0,0,0-.048-.149L52.689,8.511a.134.134,0,0,1,.078-.243h7.975a.131.131,0,0,0,.126-.092L63.334.592A.133.133,0,0,1,63.588.592Z" transform="translate(11073.846 -16147)" fill="#e68a3e"/>
+      <line id="Line_8348" data-name="Line 8348" x2="39.913" transform="translate(11126.479 -16107.563)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_8349" data-name="Line 8349" x2="22.743" transform="translate(11126.479 -16116.191)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_129039" data-name="Path 129039" d="M11103.539-16059.035h11.821" transform="translate(-4.848 -5.551)" fill="none" stroke="#fff" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
